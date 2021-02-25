@@ -1,6 +1,6 @@
 import styles from '../styles/components/Profile.module.css';
 
-export function Profile() {
+export default function Profile() {
   return (
     <div className={styles.profileContainer}>
       <img src='https://github.com/GabrielDoddy94.png' alt='Gabriel Ferreira' />
